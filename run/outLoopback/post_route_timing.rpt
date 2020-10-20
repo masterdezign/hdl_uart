@@ -1,0 +1,387 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Oct 20 14:37:30 2020
+| Host         : Paris running 64-bit Arch Linux
+| Command      : report_timing -sort_by group -max_paths 100 -path_type summary -file ./outLoopback/post_route_timing.rpt
+| Design       : TOP
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+--------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[1]/CE
+                                                              6.417         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[2]/CE
+                                                              6.417         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[3]/CE
+                                                              6.417         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[4]/CE
+                                                              6.417         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[5]/CE
+                                                              6.417         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[0]/CE
+                                                              6.548         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[6]/CE
+                                                              6.548         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[0]/CE
+                                                              6.551         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[1]/CE
+                                                              6.551         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[2]/CE
+                                                              6.551         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[0]/D
+                                                              6.649         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[7]/CE
+                                                              6.687         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[0]/CE
+                                                              6.690         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[1]/CE
+                                                              6.690         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[2]/CE
+                                                              6.690         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               rx_reg/CE                      6.927         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[0]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[1]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[2]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[3]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[4]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[5]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[6]/CE
+                                                              6.959         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[7]/CE
+                                                              6.959         
+LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[0]/CE
+                                                              7.005         
+LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[1]/CE
+                                                              7.005         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_reg/CE
+                                                              7.029         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               rx_sync_reg/CE                 7.043         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/D
+                                                              7.055         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[0]/CE
+                                                              7.125         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[1]/CE
+                                                              7.125         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[2]/CE
+                                                              7.125         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[1]/D
+                                                              7.252         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[2]/D
+                                                              7.271         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[0]/D
+                                                              7.337         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[1]/D
+                                                              7.359         
+LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[0]/D
+                                                              7.397         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[2]/D
+                                                              7.498         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[2]/D
+                                                              7.582         
+LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[0]/CE
+                                                              7.648         
+LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[1]/CE
+                                                              7.648         
+LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/CE
+                                                              7.652         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[1]/D
+                                                              7.718         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[3]/D
+                                                              7.741         
+LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[1]/D
+                                                              7.784         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[5]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[1]/D
+                                                              7.831         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[0]/CE
+                                                              7.840         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[1]/CE
+                                                              7.840         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[2]/CE
+                                                              7.840         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_reg/D
+                                                              7.855         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[4]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[4]/D
+                                                              7.882         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[3]/CE
+                                                              7.946         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/D
+                                                              7.957         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[0]/CLR
+                                                              7.964         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[1]/CLR
+                                                              7.964         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_count_reg[2]/CLR
+                                                              7.964         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/D
+                                                              8.003         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[2]/CLR
+                                                              8.008         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[0]/CLR
+                                                              8.050         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[1]/CLR
+                                                              8.050         
+LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[6]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[5]/D
+                                                              8.106         
+LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/CE
+                                                              8.123         
+LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[7]/D
+                                                              8.151         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_stb_reg/D
+                                                              8.156         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[0]/CLR
+                                                              8.161         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_rx_state_reg[1]/CLR
+                                                              8.161         
+reset_reg/C                    LOOPBACK_inst1/uart_data_out_ack_reg/D
+                                                              8.174         
+LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_data_in_ack_reg/D
+                                                              8.177         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[1]/CLR
+                                                              8.205         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[0]/CLR
+                                                              8.247         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[2]/CLR
+                                                              8.247         
+LOOPBACK_inst1/UART_inst1/FSM_sequential_uart_tx_state_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[2]/D
+                                                              8.267         
+LOOPBACK_inst1/uart_data_in_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[0]/D
+                                                              8.270         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[0]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[1]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[2]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[3]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[4]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[5]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[6]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/uart_data_in_reg[7]/R
+                                                              8.288         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[0]/CLR
+                                                              8.292         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[1]/CLR
+                                                              8.292         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[2]/CLR
+                                                              8.292         
+LOOPBACK_inst1/uart_data_in_reg[6]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[6]/D
+                                                              8.296         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[6]/CLR
+                                                              8.304         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/CLR
+                                                              8.323         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[0]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[1]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[2]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[3]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[4]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[5]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[6]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[7]/CLR
+                                                              8.327         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_reg/PRE
+                                                              8.331         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[3]/CLR
+                                                              8.333         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/baud_counter_reg[0]/PRE
+                                                              8.336         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/baud_counter_reg[2]/PRE
+                                                              8.336         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[7]/CLR
+                                                              8.337         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[0]/CLR
+                                                              8.346         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[0]/PRE
+                                                              8.364         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[1]/PRE
+                                                              8.364         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[5]/C
+                               LOOPBACK_inst1/uart_data_in_reg[5]/D
+                                                              8.364         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_bit_reg/PRE
+                                                              8.368         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/PRE
+                                                              8.378         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/baud_counter_reg[3]/PRE
+                                                              8.378         
+reset_sync_reg/C               reset_reg/D                    8.382         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[1]/CLR
+                                                              8.407         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[2]/CLR
+                                                              8.407         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[3]/CLR
+                                                              8.407         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[4]/CLR
+                                                              8.407         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[5]/CLR
+                                                              8.407         
+LOOPBACK_inst1/uart_data_in_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[1]/D
+                                                              8.411         
+LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[0]/D
+                                                              8.428         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[1]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[1]/D
+                                                              8.438         
+LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[1]/D
+                                                              8.443         
+LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[5]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[4]/D
+                                                              8.446         
+LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_filter_reg[0]/D
+                                                              8.470         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[1]/CLR
+                                                              8.505         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/uart_rx_data_in_ack_reg/CLR
+                                                              8.505         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[5]/D
+                                                              8.516         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[2]/C
+                               LOOPBACK_inst1/uart_data_in_reg[2]/D
+                                                              8.521         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/PRE
+                                                              8.549         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[2]/PRE
+                                                              8.551         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[5]/PRE
+                                                              8.551         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[7]/C
+                               LOOPBACK_inst1/uart_data_in_reg[7]/D
+                                                              8.554         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[3]/C
+                               LOOPBACK_inst1/UART_inst1/baud_counter_reg[3]/D
+                                                              8.556         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[3]/CLR
+                                                              8.591         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[4]/PRE
+                                                              8.591         
+reset_reg/C                    LOOPBACK_inst1/UART_inst1/oversample_baud_tick_reg/CLR
+                                                              8.591         
+LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[4]/C
+                               LOOPBACK_inst1/UART_inst1/uart_tx_data_block_reg[3]/D
+                                                              8.610         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[4]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[3]/D
+                                                              8.655         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[0]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[1]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[2]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[3]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[4]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[5]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[6]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_out_stb_reg/C
+                               LOOPBACK_inst1/uart_data_in_reg[7]/CE
+                                                              8.662         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[7]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[6]/D
+                                                              8.678         
+LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/oversample_baud_counter_reg[0]/D
+                                                              8.705         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/baud_counter_reg[2]/D
+                                                              8.716         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[2]/D
+                                                              8.725         
+LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[2]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_count_reg[2]/D
+                                                              8.751         
+LOOPBACK_inst1/UART_inst1/baud_counter_reg[0]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_sync_clock_reg[0]/D
+                                                              8.752         
+LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[6]/C
+                               LOOPBACK_inst1/UART_inst1/uart_rx_data_block_reg[5]/D
+                                                              8.771         
+
+
+
